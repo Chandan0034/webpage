@@ -1,0 +1,199 @@
+.modalTitle{
+    background-color:#EFFFF4;;
+    height: 50px;
+}
+.ModalClass{
+    margin-top: 50px;
+    margin-right: 100px;
+    width: 736px;
+    margin-left: 0px;
+    height: 513px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.25);
+}
+ .closeModals{
+    display: none;
+   }
+.custom-modal-content{
+    margin-left: 10px;
+}
+@media only screen and (max-width:466px){
+    .modalTitle{
+        display: none;
+    }
+   .ModalClass{
+    width: 100vw;
+    margin-right: 10px;
+   }
+   .headerTitle{
+    display: none;
+   }
+   .FormImage{
+    display: none;
+   }
+   .closeModals{
+    display: block;
+   }
+   .modal-body{
+    margin-left: 0px;
+   }
+}
+.headerTitle{
+    margin-top: 17px;
+    margin-left: 59px;
+    color: #008A45;
+    width: 619px;
+    text-align: center;
+    font-family: IBM Plex Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+}
+.AskingArea{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.modal-body{
+    margin-left: 36px;
+    margin-right: 32px;
+}
+h1{
+    color: #000;
+    font-family: IBM Plex Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.already{
+    color: #3D3D3D;
+
+    text-align: right;
+    font-family: IBM Plex Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+}
+.sign{
+    color: #2F6CE5;
+    font-family: IBM Plex Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+}
+.nameSection{
+    width: 320px;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #D9D9DB;
+}
+.EmailSection{
+    border: 1px solid #D9D9DB;
+    background: #F7F8FA;
+    width: 320px;
+}
+.passwordSection{
+    width: 320px;
+}
+.Submit{
+    width: 320px;
+    height: 46px;
+    border-radius: 23px;
+    margin-top: 24px;
+    border: 1px solid #D9D9DB;
+}
+.formContainer{
+    width: 320px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+
+}
+.form{
+    margin-top: 30px;
+}
+.CloseModal{
+    margin-left: 40px;
+    margin-bottom: 90px;
+}
+.Close{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-weight: bold;
+    padding-bottom: 5px;
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+}
+.FormImage{
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+    margin-left: 24px;
+    width: 320px;
+    height: 320px;
+    flex-shrink: 0;
+}
+.insideDiv{
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+}
+.facebook{
+    width: 320px;
+    margin-top: 24px;
+    height: 38px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 2px;
+    border: 0.6px solid #D9D9DB;
+
+    background: #FFF;
+    align-items: center;
+    justify-content: center;
+}
+.google{
+    border-radius: 2px;
+    border: 0.6px solid #D9D9DB;
+    background: #FFF;
+    width: 320px;
+    margin-top: 24px;
+    height: 38px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+}
+.modal.left .modal-dialog {
+    position: fixed;
+    margin: auto;
+    width: 300px;
+    height: 100%;
+    transform: translate3d(0%, 0, 0);
+}
+
+.modal.left .modal-content {
+    height: 100%;
+    overflow-y: auto;
+}
+
+/* Center the modal on small screens */
+@media (max-width: 466px) {
+   #signupmodal{
+    display: none;
+   }
+}
